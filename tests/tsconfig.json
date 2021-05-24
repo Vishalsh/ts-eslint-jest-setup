@@ -1,0 +1,15 @@
+{
+  "extends": "../tsconfig.json",
+  "references": [
+    {
+      "name": "ts-eslint-jest-setup",
+      "path": ".."
+    }
+  ],
+  "compilerOptions": {
+    "types": ["jest"],
+    "rootDir": "..",
+    "noEmit": true
+  },
+  "include": ["."]
+}
